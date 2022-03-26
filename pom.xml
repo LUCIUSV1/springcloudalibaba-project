@@ -21,6 +21,11 @@
         <spring-cloud-alibaba-version>2.2.5.RELEASE</spring-cloud-alibaba-version>
     </properties>
 
+    <modules>
+        <module>nacos-provider-9001</module>
+        <module>nacos-provider-9002</module>
+        <module>nacos-consumer-9100</module>
+    </modules>
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
