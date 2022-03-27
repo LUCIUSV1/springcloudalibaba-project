@@ -19,12 +19,15 @@
         <maven.compiler.target>8</maven.compiler.target>
         <java.version>1.8</java.version>
         <spring-cloud-alibaba-version>2.2.5.RELEASE</spring-cloud-alibaba-version>
+        <spring-cloud.version>Hoxton.SR8</spring-cloud.version>
     </properties>
 
     <modules>
         <module>nacos-provider-9001</module>
         <module>nacos-provider-9002</module>
         <module>nacos-consumer-9100</module>
+        <module>test-utils</module>
+        <module>sentinel-demo</module>
     </modules>
     <dependencies>
         <dependency>
@@ -41,6 +44,11 @@
                 <version>${spring-cloud-alibaba-version}</version>
                 <type>pom</type>
                 <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>${spring-cloud.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
