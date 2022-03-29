@@ -28,6 +28,7 @@
         <module>nacos-consumer-9100</module>
         <module>test-utils</module>
         <module>sentinel-demo</module>
+        <module>rocketmq-demo</module>
     </modules>
     <dependencies>
         <dependency>

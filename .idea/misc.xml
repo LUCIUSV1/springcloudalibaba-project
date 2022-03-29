@@ -9,6 +9,7 @@
         <option value="$PROJECT_DIR$/nacos-provider-9002/pom.xml" />
         <option value="$PROJECT_DIR$/test-utils/pom.xml" />
         <option value="$PROJECT_DIR$/sentinel-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/rocketmq-demo/pom.xml" />
       </list>
     </option>
   </component>
