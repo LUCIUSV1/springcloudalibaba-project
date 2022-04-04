@@ -10,6 +10,7 @@
         <option value="$PROJECT_DIR$/test-utils/pom.xml" />
         <option value="$PROJECT_DIR$/sentinel-demo/pom.xml" />
         <option value="$PROJECT_DIR$/rocketmq-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/rocketmq-springboot/pom.xml" />
       </list>
     </option>
   </component>

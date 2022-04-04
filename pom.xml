@@ -29,6 +29,7 @@
         <module>test-utils</module>
         <module>sentinel-demo</module>
         <module>rocketmq-demo</module>
+        <module>rocketmq-springboot</module>
     </modules>
     <dependencies>
         <dependency>

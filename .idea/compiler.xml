@@ -6,12 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="nacos-provider-9002" />
         <module name="test-utils" />
+        <module name="sentinel-demo" />
+        <module name="rocketmq-springboot" />
+        <module name="rocketmq-demo" />
+        <module name="nacos-provider-9002" />
         <module name="nacos-provider-9001" />
         <module name="nacos-consumer-9100" />
-        <module name="sentinel-demo" />
-        <module name="rocketmq-demo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -25,6 +26,7 @@
       <module name="nacos-provider-9001" options="-parameters" />
       <module name="nacos-provider-9002" options="-parameters" />
       <module name="rocketmq-demo" options="-parameters" />
+      <module name="rocketmq-springboot" options="-parameters" />
       <module name="sentinel-demo" options="-parameters" />
       <module name="test-utils" options="-parameters" />
     </option>
